@@ -1,0 +1,56 @@
+.footer-main {
+    background-color: rgb(233, 233, 173); 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    height: 70px;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 50px; 
+    margin-bottom: 20px; 
+    list-style: none;
+}
+
+a {
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    font-weight: 600; 
+    font-family: Georgia, serif;
+}
+
+.social-icons a {
+    margin-left: 20px; 
+    font-size: 20px; 
+    color: black;
+}
+
+.social-icons i {
+    font-size: 24px; 
+}
+
+
+a{
+   
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(46, 90, 6); 
+  }
+  
+  
+a.clicked {
+    color: rgb(20, 63, 20);
+  }
